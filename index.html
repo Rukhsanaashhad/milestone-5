@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sharable-Resume-Builder </title>
+<link rel="stylesheet" href="style.css">
+</head>   
+<body> 
+<html>
+      <form id="resumeForm">
+       <h1>Ashhad Khan</h1>
+      <h2>Personal Information</h2>
+     <label for="username">Username:</label>
+     <input type="text" name="username" id="username"><br> <br> 
+      
+      <label for="name">Name:</label>
+      <input type="name"  name="name" required><br><br>
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email" required><br><br>
+
+      <label for="phone">Phone:</label>
+      <input type="text" id="phone" name="phone" required><br><br>
+<h2>Education</h2>
+       <label for="education">Education:</label>
+       <Input type="text" id="education" name="education" required><br><br>
+    
+ <h2>Work Experience</h2>
+        <label for="experience">Experience:</label>
+        <input type="text" id="experience" name="experience" required><br><br>
+      
+ <h2>Skills</h2>
+        <label for="skills">Skills:</label>
+        <input type="text" id="skills" name="skills" required><br><br>
+
+<h2>Description</h2>
+        <label for="description">Description:</label>
+        <input type="text" id="description" name="description" required><br><br>
+
+
+
+
+<button type="submit" id="submit">Generate Resume</button>
+
+    </form>
+    <! -- Generate resume section -- >
+    <div id="resumeOutput">
+     <! -- Generate Sharable link section -- >
+    <div id="Sharable-link-container" style="display: none;">
+        <h2>Sharable Link</h2>
+        <a href="#" id="Sharable-link" target="_blank"></a> <br>
+        <button id="download-pdf"><b>Download as pdf</b></button>
+    </div>
+    <div#"shareable-link-container">
+        <h2>Shareable link</h2>
+        <p>Here is your shareable link to view or edit your resume.</p>
+        <a href="#" id="shareable-link" target="_blank"><b>maxtraders712@gmail.com</b>></a>
+        <button id="download-pdf"><b>Download as pdf</b> </button>
+    </div>
+    <script src="index.js"></script>    <! -- link to compile file >
+
+
+</head>
+</html>
+</body>
